@@ -1,0 +1,63 @@
+[
+  {
+    "nombre": "Apple Watch",
+    "precio": 1200,
+    "imagen": "apple-watch.jpg"
+  },
+  {
+    "nombre": "Impresora Epson",
+    "precio": 950,
+    "imagen": "impresora-epson.jpg"
+  },
+  {
+    "nombre": "iPhone 16 Pro Max",
+    "precio": 5600,
+    "imagen": "iphone-16-pro-max.jpg"
+  },
+  {
+    "nombre": "Laptop Lenovo 7ma Gen",
+    "precio": 4200,
+    "imagen": "laptop-lenovo-7ma.jpg"
+  },
+  {
+    "nombre": "Laptop Lenovo 8va Gen",
+    "precio": 4800,
+    "imagen": "laptop-lenovo-8va.jpg"
+  },
+  {
+    "nombre": "Laptop Lenovo 9na Gen",
+    "precio": 5300,
+    "imagen": "laptop-lenovo-9na.jpg"
+  },
+  {
+    "nombre": "Motorola Pro",
+    "precio": 1500,
+    "imagen": "motorola-pro.jpg"
+  },
+  {
+    "nombre": "Oppo Reno",
+    "precio": 1800,
+    "imagen": "oppo-reno.jpg"
+  },
+  {
+    "nombre": "Samsung Celular",
+    "precio": 2200,
+    "imagen": "Samsung-celular.jpg"
+  },
+  {
+    "nombre": "Samsung Reloj",
+    "precio": 900,
+    "imagen": "samsung-reloj.jpg"
+  },
+  {
+    "nombre": "Tablet Samsung",
+    "precio": 1300,
+    "imagen": "tablet-samsung.jpg"
+  },
+  {
+    "nombre": "Xiaomi Pro",
+    "precio": 1700,
+    "imagen": "xiaomi-pro.jpg"
+  }
+]
+

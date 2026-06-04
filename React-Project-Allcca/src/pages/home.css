@@ -1,0 +1,158 @@
+/* ======== Sección Principal ======== */
+.home-container {
+  text-align: center;
+  padding: 3rem 2rem 2rem; /* Antes era 4rem, ahora menos arriba */
+  background: linear-gradient(to bottom, #ffffff, #f5faff);
+}
+
+/* Logo */
+.store-logo {
+  width: 420px;
+  max-width: 90%;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2));
+  margin-bottom: 1.2rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Título */
+.home-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 0.5rem;
+}
+
+/* Subtítulo */
+.home-subtitle {
+  font-size: 1.15rem;
+  color: #6c757d;
+  margin-bottom: 1.8rem;
+}
+
+/* Botón principal */
+.home-button {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  border: none;
+  padding: 0.9rem 2.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+  margin-bottom: 3rem; /* 📌 Más espacio antes de "Contáctenos" */
+}
+
+.home-button:hover {
+  background: linear-gradient(90deg, #0056b3, #009acd);
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.4);
+}
+
+/* ======== Sección Especialidad ======== */
+.rating-container {
+  position: relative;
+  display: inline-block;
+}
+
+.rating-icon {
+  width: 80px; /* o el tamaño que quieras */
+  height: 80px;
+}
+
+.stars {
+  color: gold;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+}
+
+/* ======== Sección Contáctenos ======== */
+.contact-section {
+  background-color: #ffffff;
+  padding: 3rem;
+  border-radius: 15px;
+  margin-top: 2rem; /* 📌 Ajustado para que no esté tan pegado */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+/* Título de la sección */
+.contact-section h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #212529;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Campos del formulario */
+.contact-section form input,
+.contact-section form textarea {
+  border: 1px solid #d0d7de;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-section form input:focus,
+.contact-section form textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: 0px 0px 6px rgba(13, 110, 253, 0.4);
+  outline: none;
+}
+
+/* Botón de enviar */
+.contact-section form button {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  border: none;
+  color: white;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.contact-section form button:hover {
+  background: linear-gradient(90deg, #0056b3, #009acd);
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 123, 255, 0.4);
+}
+
+/* Mapa */
+.contact-section iframe {
+  border-radius: 12px;
+  border: none;
+  width: 100%;
+  height: 350px;
+  min-height: 300px;
+}
+
+/* Animación suave */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.rating-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 1.5rem; /* separación con el texto */
+}
+
+.rating-icon {
+  position: absolute;
+  top: -40px; /* encima de las estrellas */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.stars {
+  color: gold;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+}
+

@@ -25,17 +25,7 @@ Repositorio padre para agrupar los proyectos publicos del curso Java Fullstack C
 ## Clonar todo
 
 ```bash
-git clone --recurse-submodules https://github.com/fabrijoelc/JAVA-FULLSTACK-CODIGO-TECSUP.git
+git clone https://github.com/fabrijoelc/JAVA-FULLSTACK-CODIGO-TECSUP.git
 ```
 
-Si ya clonaste el repositorio padre sin submodulos:
-
-```bash
-git submodule update --init --recursive
-```
-
-## Actualizar submodulos
-
-```bash
-git submodule update --remote --merge
-```
+Cada carpeta contiene el codigo completo de su proyecto, sin depender de submodulos externos.

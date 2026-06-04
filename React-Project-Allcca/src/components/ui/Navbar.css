@@ -1,0 +1,80 @@
+.navbar {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  padding: 0.8rem 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  animation: fadeInDown 0.6s ease-in-out;
+}
+
+/* Animación para que aparezca suave */
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Logo */
+.navbar-brand img {
+  height: 42px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.05);
+}
+
+/* Links */
+.navbar .nav-link {
+  color: white !important;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Línea decorativa en hover */
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #ffc107;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+  transform: translateY(-2px);
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Badge del carrito */
+.cart-badge {
+  background-color: #ffc107;
+  color: black;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  margin-left: 5px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.cart-badge:hover {
+  transform: scale(1.1);
+}
