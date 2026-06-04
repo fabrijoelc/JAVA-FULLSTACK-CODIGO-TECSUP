@@ -2,8 +2,6 @@
 
 Repositorio padre para agrupar los proyectos publicos del curso Java Fullstack Codigo / Tecsup.
 
-> Nota: `secigra-unalm-springboot` no se incluye porque es privado.
-
 ## Proyectos incluidos
 
 1. [React-Project-Allcca](https://github.com/fabrijoelc/React-Project-Allcca)
