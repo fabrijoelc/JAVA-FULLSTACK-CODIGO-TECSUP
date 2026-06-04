@@ -4,7 +4,7 @@ Repositorio padre para agrupar los proyectos publicos del curso Java Fullstack C
 
 ## Proyectos incluidos
 
-1. [React-Project-Allcca](https://github.com/fabrijoelc/React-Project-Allcca)
+1. [proyecto-final-react-codigo-tecsup](./proyecto-final-react-codigo-tecsup)
 2. [aerolinea-api-springboot](https://github.com/fabrijoelc/aerolinea-api-springboot)
 3. [gestion-academica-api-springboot](https://github.com/fabrijoelc/gestion-academica-api-springboot)
 4. [ms-auth](https://github.com/fabrijoelc/ms-auth)
